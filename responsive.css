@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1000px){
+    .btn-here{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .second-header{
+        display: block;
+    }
+    .ul-here{
+        display: block;
+        height: 100vh;
+        width: 100%;
+        z-index: 2;
+        text-align: left;
+        position: relative;
+    }
+    .ul-here .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        /* z-index: 5; */
+    }
+    .ul-here ul{
+        display: block;
+        color: white;
+        background-color: rgb(221, 130, 130);
+    }
+    .ul-here ul li{
+        color: white;
+        padding: 20px ;
+    }
+    .btn-here{
+        display: none;
+    }
+    
+}
